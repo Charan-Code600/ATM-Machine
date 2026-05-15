@@ -1,3 +1,15 @@
+print("""
+====================
+WELL COME TO HDFC 
+    ATM Machine
+====================
+Balance Check   enter---> 1
+Withdraw        enter---> 2
+Deposit         enter---> 3
+Exit            enter---> 4
+
+""")
+
 
 balance = 10000
 pin = ""
@@ -28,5 +40,3 @@ while True:
     elif option == "4":
         print("thank you for transaction ")
         break
-
-    
