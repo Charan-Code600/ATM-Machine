@@ -1,4 +1,4 @@
-Simple ATM Machine program made in Python
+
 
 # ATM Machine 🏧
 
@@ -8,8 +8,8 @@ Simple ATM Machine program made in Python.
 ## Features
 - Balance Check
 - Withdraw
--Deposit
--Exit
+- Deposit
+- Exit
 
 ## How to Run
 - Press 1 — To check balance
