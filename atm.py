@@ -51,7 +51,7 @@ Please add more funds or withdraw a smaller amount.
             balance = balance - enter
             history.append(f"Withdrawn: ₹{enter}")
             print(f"✅ Withdraw ₹{enter} From HDFC Bank || 💰 Available Balance: ₹{balance}")
-        else:  # ✅ यह add करो
+        else:  
             print(f"""
 ⚠ Your account balance is ₹{balance}
 Add more balance to press 3
@@ -67,7 +67,7 @@ Add more balance to press 3
     elif option == "4":
         print("\n--- Transaction History ---")
         if len(history) == 0:
-            print("कोई transaction नहीं हुआ!")
+            print("No transaction took place!")
         else:                          
             for h in history:
                 print(h)
