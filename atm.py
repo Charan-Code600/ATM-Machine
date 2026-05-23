@@ -1,6 +1,5 @@
 
 
-
 print("""
 ====================
 WELL COME TO HDFC 
@@ -21,10 +20,13 @@ history = []
 balance = 1000
 pin = ""
 
+attempts = 0
 while pin != "1234":
-    pin = input("enter pin:")
-
-print("Access Granted")
+    if attempts >= 3:
+        print("🔒 Account Locked!")
+        exit()
+    pin = input("Enter PIN: ")
+    attempts += 1
 
 while True:
     option = (input("Choose: "))
@@ -77,6 +79,7 @@ Add more balance to press 3
         break
 
 
+     
 
 
 
