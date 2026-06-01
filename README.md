@@ -1,18 +1,31 @@
 
 
-# ATM Machine 🏧
+# 🏦 ATM Machine
 
-## Description
-Simple ATM Machine program made in Python.
+A simple ATM simulator built with Python.
 
 ## Features
-- Balance Check
-- Withdraw
-- Deposit
-- Exit
+- 🔐 PIN Protection (3 attempts)
+- 🔒 Account Lock after 3 wrong PINs
+- 💰 Balance Check
+- 💸 Withdraw Money
+- 💵 Deposit Money
+- 📋 Transaction History
+- ⚠️ Minimum Balance Rule (₹1,000)
 
 ## How to Run
-- Press 1 — To check balance
-- Press 2 — To withdraw money
-- Press 3 — To deposit money
-- Press 4 — To exit
+```bash
+python atm.py
+```
+
+## Default PIN
+1234
+
+## Technologies Used
+- Python
+- Lists
+- Loops
+- Conditionals
+
+## Author
+Charan | Python Developer
