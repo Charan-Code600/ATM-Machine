@@ -1,5 +1,9 @@
 
 
+
+
+import os
+
 print("""
 ====================
 WELL COME TO HDFC 
@@ -17,9 +21,18 @@ Exit               enter---> 5
 Password protected....
 """)
 history = []
-balance = 1000
-pin = ""
 
+if os.path.exists("history.txt"):
+    with open("history.txt", "r") as f:
+        history = f.readlines()
+
+balance = 1000
+
+if os.path.exists("balance.txt"):
+    with open("balance.txt", "r") as f:
+        balance = int(f.read())
+
+pin = ""
 attempts = 0
 while pin != "1234":
     if attempts >= 3:
@@ -51,7 +64,11 @@ Please add more funds or withdraw a smaller amount.
         enter = int(input("Withdraw amount:"))
         if enter <= balance - 1000:  
             balance = balance - enter
+            with open("balance.txt", "w") as f:
+                f.write(str(balance))
             history.append(f"Withdrawn: ₹{enter}")
+            with open("history.txt", "a") as f:
+                f.write(f"Withdrawn: ₹{enter}\n")
             print(f"✅ Withdraw ₹{enter} From HDFC Bank || 💰 Available Balance: ₹{balance}")
         else:  
             print(f"""
@@ -63,7 +80,11 @@ Add more balance to press 3
         deposit =int(input("deposit amount:"))
         if deposit > 0:
             balance += deposit
+            with open("balance.txt", "w") as f:
+                f.write(str(balance))
             history.append(f"Deposited: ₹{deposit}")
+            with open("history.txt", "a") as f:
+                f.write(f"Deposited: ₹{deposit}\n")
             print(f"✅ Update! ₹{deposit} deposited in HDFC Bank||  💰 New Balance: ₹{balance}")
 
     elif option == "4":
@@ -72,28 +93,8 @@ Add more balance to press 3
             print("No transaction took place!")
         else:                          
             for h in history:
-                print(h)
+                print(h.strip())
 
     elif option == "5":
         print("Thank you for Transaction")  
         break
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
