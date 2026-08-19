@@ -63,7 +63,7 @@ To access the ATM, use this PIN when prompted:
 
 ## Author
 
-Charan Aade | Python Developer
+**Charan Aade | Python Developer**
 
 
 
