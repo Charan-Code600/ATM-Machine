@@ -7,7 +7,11 @@
 </p>
 
 # 🏦 ATM Machine
+<!-- ==================== GLOWING DIVIDER ==================== -->
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
 A simple ATM simulator built with Python, with PIN protection and persistent data storage.
 
 ## Features
