@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <img src="https://capsule-render.com/api?type=waving&color=0:1E3C72,100:2A5298&height=200&section=header&text=ATM%20Machine&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3C72,100:2A5298&height=200&section=header&text=ATM%20Machine&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>
 </div>
 
 ### A secure, PIN-protected ATM simulator built in Python with persistent data storage — no database required.
