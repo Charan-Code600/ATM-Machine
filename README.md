@@ -4,48 +4,61 @@
 
 # 🏦 ATM Machine
 
-A simple ATM simulator built with Python, with PIN protection and persistent data storage.
+> A secure, PIN-protected ATM simulator built in Python with persistent data storage — no database required.
 
-## Features
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-- 🔐 PIN Protection (3 attempts before lockout)
-- 🔒 Account Lock after 3 wrong PIN entries
-- 💰 Balance Check
-- 💸 Withdraw Money (with minimum balance enforcement)
-- 💵 Deposit Money
-- 📋 Transaction History (saved permanently to file)
-- ⚠️ Minimum Balance Rule (₹1,000 must always remain in account)
-- ✅ Input Validation (invalid or negative amounts are safely rejected)
-- 💾 Data Persistence — balance and history are saved to files, so your data stays even after closing the program
+## 📑 Table of Contents
 
-## Requirements
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Installation & Usage](#-installation--usage)
+- [Menu Options](#-menu-options)
+- [Project Structure](#-project-structure)
+- [Highlights](#-highlights)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+- [License](#-license)
 
-- Python 3.x (no external libraries needed)
+## 📖 Overview
 
-## How to Run
+Real ATMs need to reliably track balance, enforce security, and remember transaction history between sessions — this project recreates that behavior entirely with core Python, using file handling instead of a database. It was built to practice secure input handling, persistent state management, and clean CLI design.
+
+## ✨ Features
+
+- 🔐 **PIN Protection** — account locks after 3 incorrect attempts
+- 💰 **Balance Check** — view current balance instantly
+- 💸 **Smart Withdraw** — enforces a ₹1,000 minimum balance rule automatically
+- 💵 **Deposit Money** — add funds with validation
+- 📋 **Transaction History** — every withdrawal/deposit permanently logged
+- ✅ **Input Validation** — invalid or negative amounts safely rejected, no crashes
+- 💾 **Data Persistence** — balance and history survive program restarts (file-based storage)
+
+## 🛠 Tech Stack
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![File Handling](https://img.shields.io/badge/-File%20Handling-4B8BBE?style=flat-square)
+
+## 🚀 Installation & Usage
 
 ```bash
+# Clone the repository
+git clone https://github.com/Charan-Code600/atm-machine.git
+cd atm-machine
+
+# Run the program
 python atm.py
 ```
 
-## Default PIN
+**Default PIN:** `1234` (3 attempts allowed before lockout)
 
-To access the ATM, use this PIN when prompted:
-
-```
-1234
-```
-
-## How It Works
-
-1. Run the script and enter the PIN when prompted (3 attempts allowed).
-2. Once unlocked, choose an option from the menu (0-5).
-3. Balance and transaction history are automatically saved to `balance.txt` and `history.txt` in the same folder, so your data is remembered the next time you run the program.
-
-## Menu Options
+## 📋 Menu Options
 
 | Option | Action |
-|--------|--------|
+|:------:|--------|
 | 0 | Check current balance |
 | 1 | Check how much you can safely withdraw |
 | 2 | Withdraw money |
@@ -53,17 +66,34 @@ To access the ATM, use this PIN when prompted:
 | 4 | View transaction history |
 | 5 | Exit |
 
-## Technologies Used
+## 📁 Project Structure
 
-- Python
-- File Handling
-- Lists
-- Loops
-- Conditionals
+```
+atm-machine/
+├── atm.py          # Main program
+├── balance.txt     # Auto-generated — stores current balance
+└── history.txt     # Auto-generated — stores transaction log
+```
 
-## Author
+## 💡 Highlights
 
-**Charan Aade | Python Developer**
+- Zero external dependencies — runs on any machine with Python installed
+- Minimum-balance logic prevents overdraft in every withdrawal path
+- History and balance persist automatically without any manual save step
 
-🔗 [GitHub](https://github.com/Charan-Code600)
+## 🔮 Future Improvements
 
+- [ ] Multi-user support with separate account files
+- [ ] Encrypted PIN storage instead of plain-text check
+- [ ] Interest calculation on stored balance
+- [ ] GUI version using Tkinter
+
+## 👤 Author
+
+**Charan Aade** — Python & Data Analysis Developer
+
+🔗 [GitHub](https://github.com/Charan-Code600) • [LinkedIn](https://linkedin.com/in/charanaade)
+
+## 📄 License
+
+This project is licensed under the MIT License.
