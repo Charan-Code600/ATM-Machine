@@ -2,9 +2,13 @@
 
 
 
+<div align="center">
+
 # 🏦 ATM Machine
 
-> A secure, PIN-protected ATM simulator built in Python with persistent data storage — no database required.
+### A secure, PIN-protected ATM simulator built in Python with persistent data storage — no database required.
+
+</div>
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
