@@ -6,6 +6,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB800,100:FF8C00&height=150&section=header&text=ATM%20Machine&fontSize=60&fontColor=000000&animation=fadeIn&fontAlignY=35" width="100%"/>
 </div>
 
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FFB800&center=true&vCenter=true&width=600&lines=%F0%9F%94%92+Secure+PIN-Protected+ATM+Simulator;%F0%9F%92%BE+Persistent+Data+Storage+-+No+Database+Required)](https://git.io/typing-svg)
+
+</div>
+
 ### A secure, PIN-protected ATM simulator built in Python with persistent data storage — no database required.
 
 </div>
