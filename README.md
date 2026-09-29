@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FFB800&center=true&vCenter=true&width=600&lines=%F0%9F%94%92+Secure+PIN-Protected+ATM+Simulator;%F0%9F%92%BE+Persistent+Data+Storage+-+No+Database+Required)](https://git.io/typing-svg)
+![Tagline](https://img.shields.io/badge/🔒_Secure_PIN--Protected_ATM_Simulator_|_💾_Persistent_Data_Storage-00D9FF?style=for-the-badge&labelColor=1a1a1a)
 
 </div>
 
