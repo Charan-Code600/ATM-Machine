@@ -8,7 +8,7 @@
 
 <div align="center">
 
-![Tagline](https://img.shields.io/badge/🔒%20Secure%20PIN--Protected%20ATM%20Simulator%20%7C%20💾%20Persistent%20Data%20Storage-FFB800?style=for-the-badge&logoColor=black)
+![Tagline](https://img.shields.io/badge/🔒_Secure_PIN--Protected_ATM_Simulator_%7C_💾_Persistent_Data_Storage_--_No_Database_Required-FFB800?style=for-the-badge&logoColor=black)
 
 </div>
 
