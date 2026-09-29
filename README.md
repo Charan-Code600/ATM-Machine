@@ -8,10 +8,9 @@
 
 <div align="center">
 
-![Tagline](https://img.shields.io/badge/🔒_Secure_PIN--Protected_ATM_Simulator_%7C_💾_Persistent_Data_Storage_--_No_Database_Required-FFB800?style=for-the-badge&logoColor=black)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=100000&color=FFB800&center=true&vCenter=true&width=600&lines=%F0%9F%94%92+Secure+PIN-Protected+ATM+Simulator;%F0%9F%92%BE+Persistent+Data+Storage+-+No+Database+Required)](https://git.io/typing-svg)
 
 </div>
-
 
 ### A secure, PIN-protected ATM simulator built in Python with persistent data storage — no database required.
 
