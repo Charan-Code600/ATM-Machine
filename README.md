@@ -16,7 +16,7 @@
 
 <!-- ==================== Border Line ==================== -->
 
-<table width="100%"><tr><td height="4" bgcolor="#30363d"></td></tr></table>
+<img width="100%" height="5" src="https://via.placeholder.com/1200x5/8B949E/8B949E">
 
 
 </div>
