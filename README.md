@@ -16,7 +16,15 @@
 
 <!-- ==================== Border Line ==================== -->
 
-<img width="100%" height="5" src="https://via.placeholder.com/1200x5/8B949E/8B949E">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+
+
+
 
 
 </div>
