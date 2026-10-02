@@ -26,7 +26,11 @@
 
 
 <div align="center">
-  
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=35&fontColor=000000&fontAlignY=50"/>
+</div>
+
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-00C851?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-FFB800?style=for-the-badge)
