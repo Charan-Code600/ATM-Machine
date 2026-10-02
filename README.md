@@ -27,7 +27,7 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
+![Status](https://img.shields.io/badge/Status-Complete-00C851?style=for-the-badge&logo=checkmarx&logoColor=white)
 
 </div>
 
