@@ -31,7 +31,7 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-%E2%86%93%20%E2%86%93%20%E2%86%93%20%E2%86%93%20%E2%86%93-FFB800?style=flat-square" alt="arrows">
+  <img src="https://cdn-icons-png.flaticon.com/512/32/32195.png" width="25" alt="arrow down" style="filter: invert(72%) sepia(85%) saturate(1450%) hue-rotate(359deg) brightness(102%) contrast(105%);">
 </p>
   
 </div>
