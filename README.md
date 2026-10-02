@@ -29,6 +29,11 @@
   <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=60&fontColor=000000&fontAlignY=50" width="400"/>
 </div>
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/32/32195.png" width="25" alt="arrow down">
+</p>
+  
 </div>
 
 <div align="center">
@@ -39,6 +44,16 @@
 ![Security](https://img.shields.io/badge/Security-PIN%20Protected-FF4444?style=for-the-badge&logo=shieldcheck&logoColor=white)
 
 </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
