@@ -29,9 +29,11 @@
   <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=60&fontColor=000000&fontAlignY=50" width="400"/>
 </div>
-
+  
 <p align="center">
-  <div style="width: 25px; height: 25px; background-color: yellow; -webkit-mask: url(https://cdn-icons-png.flaticon.com/512/32/32195.png) no-repeat center; mask: url(https://cdn-icons-png.flaticon.com/512/32/32195.png) no-repeat center; -webkit-mask-size: contain; mask-size: contain;"></div>
+  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 21L3 12H8V3H16V12H21L12 21Z" fill="#FFD700" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
 </p>
   
 </div>
