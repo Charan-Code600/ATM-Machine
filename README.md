@@ -31,11 +31,7 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-%E2%86%93-FFB800?style=flat-square" height="20"><br>
-  <img src="https://img.shields.io/badge/-%E2%86%93-FFB800?style=flat-square" height="20"><br>
-  <img src="https://img.shields.io/badge/-%E2%86%93-E0A800?style=flat-square" height="20"><br>
-  <img src="https://img.shields.io/badge/-%E2%86%93-C08400?style=flat-square" height="20"><br>
-  <img src="https://img.shields.io/badge/-%E2%86%93-A06800?style=flat-square" height="20">
+  <img src="https://img.shields.io/badge/-%E2%86%93%20%E2%86%93%20%E2%86%93%20%E2%86%93%20%E2%86%93-FFB800?style=flat-square" alt="arrows">
 </p>
   
 </div>
