@@ -27,7 +27,7 @@
 
 <div align="center">
   <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=35&fontColor=000000&fontAlignY=50" width="300"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=60&fontColor=000000&fontAlignY=50" width="800"/>
 </div>
 </div>
 
