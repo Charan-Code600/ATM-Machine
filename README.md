@@ -31,7 +31,11 @@
 </div>
 
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/32/32195.png" width="25" alt="arrow down">
+  <img src="https://img.shields.io/badge/-%E2%86%93-FFB800?style=flat-square" height="20"><br>
+  <img src="https://img.shields.io/badge/-%E2%86%93-FFB800?style=flat-square" height="20"><br>
+  <img src="https://img.shields.io/badge/-%E2%86%93-E0A800?style=flat-square" height="20"><br>
+  <img src="https://img.shields.io/badge/-%E2%86%93-C08400?style=flat-square" height="20"><br>
+  <img src="https://img.shields.io/badge/-%E2%86%93-A06800?style=flat-square" height="20">
 </p>
   
 </div>
