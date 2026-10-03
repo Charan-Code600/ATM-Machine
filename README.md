@@ -1,36 +1,15 @@
-
-
-<!-- ==================== Title ==================== -->
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB800,100:FF8C00&height=150&section=header&text=ATM%20Machine&fontSize=60&fontColor=000000&animation=fadeIn&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB800,100:FF8C00&height=150&section=header&text=ATM%20Machine&fontSize=50&fontColor=000000&animation=fadeIn&fontAlignY=35" width="100%"/>
 </div>
 
-
-<!-- ==================== Tagline ==================== -->
-
 <div align="center">
-<h3 style="color: #FFB800;">A fully functional command-line ATM system with PIN security, real-time balance tracking, and persistent transaction history — built entirely in Python.</h3>
+
+### A fully functional command-line ATM system with PIN security, real-time balance tracking, and persistent transaction history — built entirely in Python.
+
 </div>
 
-
-<!-- ==================== Border Line ==================== -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
-</p>
-
-
-
-<!-- ==================== Badges ==================== -->
-
-
 <div align="center">
-  <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=60&fontColor=000000&fontAlignY=50" width="400"/>
-</div>
-
-  
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=80&section=header&text=Badges&fontSize=35&fontColor=000000&fontAlignY=50" width="300"/>
 </div>
 
 <div align="center">
@@ -42,52 +21,71 @@
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
+- [Demo](#-demo)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Installation & Usage](#-installation--usage)
 - [Menu Options](#-menu-options)
 - [Project Structure](#-project-structure)
-- [Highlights](#-highlights)
+- [Key Highlights](#-key-highlights)
 - [Future Improvements](#-future-improvements)
 - [Author](#-author)
-- [License](#-license)
+
+<br>
 
 ## 📖 Overview
 
-Real ATMs need to reliably track balance, enforce security, and remember transaction history between sessions — this project recreates that behavior entirely with core Python, using file handling instead of a database. It was built to practice secure input handling, persistent state management, and clean CLI design.
+Real ATMs need to reliably verify identity, track balance, and remember transaction history between sessions. This project recreates that entire behavior using only core Python — no database, no external libraries — by combining secure input handling with simple file-based persistence. It was built to practice clean CLI design, state management, and real-world input validation.
+
+<br>
+
+## 🎬 Demo
+
+```
+           ╔══════════════════════════════════╗
+           ║     WELCOME TO HDFC ATM MACHINE  ║
+           ╚══════════════════════════════════╝
+
+        Balance Check                   Enter  →  0
+        Minimum Balance Check           Enter  →  1
+        Withdraw                        Enter  →  2
+        Deposit                         Enter  →  3
+        Transaction History             Enter  →  4
+        Exit                            Enter  →  5
+
+  🔒 Password Protected
+
+Enter PIN: ****
+✅ PIN Correct! Account Unlocked. Welcome!
+```
+
+> 📸 *Add a real terminal screenshot here once available, for an even stronger first impression.*
+
+<br>
 
 ## ✨ Features
 
 - 🔐 **PIN Protection** — account locks after 3 incorrect attempts
 - 💰 **Balance Check** — view current balance instantly
-- 💸 **Smart Withdraw** — enforces a ₹1,000 minimum balance rule automatically
-- 💵 **Deposit Money** — add funds with validation
+- 💸 **Smart Withdraw** — enforces a ₹1,000 minimum balance automatically
+- 💵 **Deposit Money** — add funds with full validation
 - 📋 **Transaction History** — every withdrawal/deposit permanently logged
 - ✅ **Input Validation** — invalid or negative amounts safely rejected, no crashes
-- 💾 **Data Persistence** — balance and history survive program restarts (file-based storage)
+- 💾 **Data Persistence** — balance and history survive program restarts
+
+<br>
 
 ## 🛠 Tech Stack
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![File Handling](https://img.shields.io/badge/-File%20Handling-4B8BBE?style=flat-square)
+
+<br>
 
 ## 🚀 Installation & Usage
 
@@ -102,6 +100,8 @@ python atm.py
 
 **Default PIN:** `1234` (3 attempts allowed before lockout)
 
+<br>
+
 ## 📋 Menu Options
 
 | Option | Action |
@@ -113,6 +113,8 @@ python atm.py
 | 4 | View transaction history |
 | 5 | Exit |
 
+<br>
+
 ## 📁 Project Structure
 
 ```
@@ -122,11 +124,16 @@ atm-machine/
 └── history.txt     # Auto-generated — stores transaction log
 ```
 
-## 💡 Highlights
+<br>
+
+## 💡 Key Highlights
 
 - Zero external dependencies — runs on any machine with Python installed
-- Minimum-balance logic prevents overdraft in every withdrawal path
-- History and balance persist automatically without any manual save step
+- Minimum-balance logic prevents overdraft on every withdrawal path
+- Balance and history persist automatically, no manual save step needed
+- Account auto-locks after 3 failed PIN attempts for basic security
+
+<br>
 
 ## 🔮 Future Improvements
 
@@ -135,12 +142,23 @@ atm-machine/
 - [ ] Interest calculation on stored balance
 - [ ] GUI version using Tkinter
 
+<br>
+
 ## 👤 Author
 
 **Charan Aade** — Python & Data Analysis Developer
 
 🔗 [GitHub](https://github.com/Charan-Code600) • [LinkedIn](https://linkedin.com/in/charanaade)
 
-## 📄 License
+<br>
 
-This project is licensed under the MIT License.
+<div align="center">
+
+![License](https://img.shields.io/badge/License-MIT-FFB800?style=for-the-badge)
+
+</div>
+
+
+
+
+
