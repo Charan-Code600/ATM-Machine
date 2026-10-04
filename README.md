@@ -18,7 +18,7 @@
 
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=100&section=header&text=Badges&fontSize=70&fontColor=000000&fontAlignY=50" width="110"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=50&section=header&text=Badges&fontSize=26&fontColor=000000&fontAlignY=50" width="145"/>
 </div>
 
 <div align="center">
