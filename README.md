@@ -40,20 +40,26 @@
 
 
 
-<br>
+<div align="center">
 
-## 📑 Table of Contents
+### 📑 $\textsf{\color{#FFB800}{Table of Contents}}$
 
-- [Overview](#-overview)
-- [Demo](#-demo)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Installation & Usage](#-installation--usage)
-- [Menu Options](#-menu-options)
-- [Project Structure](#-project-structure)
-- [Key Highlights](#-key-highlights)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
+</div>
+
+<div align="center">
+
+[![Overview](https://img.shields.io/badge/-Overview-1a1a2e?style=for-the-badge)](#-overview)
+[![Demo](https://img.shields.io/badge/-Demo-1a1a2e?style=for-the-badge)](#-demo)
+[![Features](https://img.shields.io/badge/-Features-1a1a2e?style=for-the-badge)](#-features)
+[![Tech Stack](https://img.shields.io/badge/-Tech%20Stack-1a1a2e?style=for-the-badge)](#-tech-stack)
+[![Installation](https://img.shields.io/badge/-Installation%20&%20Usage-1a1a2e?style=for-the-badge)](#-installation--usage)
+[![Menu Options](https://img.shields.io/badge/-Menu%20Options-1a1a2e?style=for-the-badge)](#-menu-options)
+[![Project Structure](https://img.shields.io/badge/-Project%20Structure-1a1a2e?style=for-the-badge)](#-project-structure)
+[![Key Highlights](https://img.shields.io/badge/-Key%20Highlights-1a1a2e?style=for-the-badge)](#-key-highlights)
+[![Future Improvements](https://img.shields.io/badge/-Future%20Improvements-1a1a2e?style=for-the-badge)](#-future-improvements)
+[![Author](https://img.shields.io/badge/-Author-1a1a2e?style=for-the-badge)](#-author)
+
+</div>
 
 <br>
 
