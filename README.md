@@ -1,12 +1,20 @@
+
+<!-- ==================== ANIMATED BANNER ==================== -->
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB800,100:FF8C00&height=150&section=header&text=ATM%20Machine&fontSize=50&fontColor=000000&animation=fadeIn&fontAlignY=35" width="100%"/>
 </div>
+
+
+
+<!-- ==================== Tagline ==================== -->
 
 <div align="center">
 
 ### A fully functional command-line ATM system with PIN security, real-time balance tracking, and persistent transaction history — built entirely in Python.
 
 </div>
+
 
 
 <!-- ==================== GLOWING DIVIDER ==================== -->
@@ -16,6 +24,8 @@
 </p>
 
 
+
+<!-- ==================== Badges ==================== -->
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=100&section=header&text=Badges&fontSize=70&fontColor=000000&fontAlignY=50" width="300"/>
@@ -39,6 +49,7 @@
 
 
 
+<!-- ==================== Table of Contents ==================== -->
 
 <div align="center">
 
