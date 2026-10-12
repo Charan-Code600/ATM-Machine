@@ -28,8 +28,11 @@
 <!-- ==================== Badges ==================== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFB800,100:FF8C00&height=100&section=header&text=Badges&fontSize=70&fontColor=000000&fontAlignY=50" width="300"/>
+
+# 📑 $\textsf{\color{#FFB800}{Badges}}$
+
 </div>
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
