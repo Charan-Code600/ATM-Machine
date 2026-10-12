@@ -95,15 +95,24 @@
 
 
 
-
-
-
+<!-- ==================== Overview ==================== -->
 
 ## 📖 Overview
 
-Real ATMs need to reliably verify identity, track balance, and remember transaction history between sessions. This project recreates that entire behavior using only core Python — no database, no external libraries — by combining secure input handling with simple file-based persistence. It was built to practice clean CLI design, state management, and real-world input validation.
+<div align="center">
 
-<br>
+### Real ATMs need to reliably verify identity, track balance, and remember transaction history between sessions. This project recreates that entire behavior using only core Python — no database, no external libraries — by combining secure input handling with simple file-based persistence. It was built to practice clean CLI design, state management, and real-world input validation.
+
+</div>
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
 
 ## 🎬 Demo
 
