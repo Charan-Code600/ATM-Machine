@@ -29,7 +29,7 @@
 
 <div align="center">
 
-# 📑 $\textsf{\color{#FFB800}{Badges}}$
+# $\textsf{\color{#FFB800}{Badges}}$
 
 </div>
 
