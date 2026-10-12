@@ -56,7 +56,7 @@
 
 <div align="center">
 
-# 📑 $\textsf{\color{#FFB800}{Table of Contents}}$
+#  $\textsf{\color{#FFB800}{Table of Contents}}$
 
 </div>
 
