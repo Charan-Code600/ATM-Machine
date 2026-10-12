@@ -59,7 +59,16 @@
 
 <div align="center">
 
-[![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)](#-overview) [![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)](#-demo) [![3 Features](https://img.shields.io/badge/3-Features-1a1a2e?style=for-the-badge)](#-features) [![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-1a1a2e?style=for-the-badge)](#-tech-stack) [![5 Installation](https://img.shields.io/badge/5-Installation-1a1a2e?style=for-the-badge)](#-installation--usage) [![6 Menu Options](https://img.shields.io/badge/6-Menu%20Options-1a1a2e?style=for-the-badge)](#-menu-options) [![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-1a1a2e?style=for-the-badge)](#-project-structure) [![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-1a1a2e?style=for-the-badge)](#-key-highlights) [![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-1a1a2e?style=for-the-badge)](#-future-improvements) [![10 Author](https://img.shields.io/badge/10-Author-1a1a2e?style=for-the-badge)](#-author)
+[![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)](#-overview)
+[![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)](#-demo) 
+[![3 Features](https://img.shields.io/badge/3-Features-1a1a2e?style=for-the-badge)](#-features) 
+[![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-1a1a2e?style=for-the-badge)](#-tech-stack) 
+[![5 Installation](https://img.shields.io/badge/5-Installation-1a1a2e?style=for-the-badge)](#-installation--usage) 
+[![6 Menu Options](https://img.shields.io/badge/6-Menu%20Options-1a1a2e?style=for-the-badge)](#-menu-options) 
+[![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-1a1a2e?style=for-the-badge)](#-project-structure)
+[![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-1a1a2e?style=for-the-badge)](#-key-highlights) 
+[![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-1a1a2e?style=for-the-badge)](#-future-improvements) 
+[![10 Author](https://img.shields.io/badge/10-Author-1a1a2e?style=for-the-badge)](#-author)
 
 </div>
 
