@@ -58,6 +58,8 @@
 </div>
 
 <div align="center">
+<table>
+<tr><td align="left">
 
 [![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)](#-overview)
 <br>
@@ -79,8 +81,9 @@
 <br>
 [![10 Author](https://img.shields.io/badge/10-Author-1a1a2e?style=for-the-badge)](#-author)
 
+</td></tr>
+</table>
 </div>
-
 <br>
 
 ## 📖 Overview
