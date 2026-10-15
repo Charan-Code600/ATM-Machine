@@ -36,9 +36,9 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-00C851?style=for-the-badge&logo=checkmarx&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-FFB800?style=for-the-badge)
-![Security](https://img.shields.io/badge/Security-PIN%20Protected-FF4444?style=for-the-badge&logo=shieldcheck&logoColor=white)
+![Dependencies](https://img.shields.io/badge/Dependencies-None-00C851?style=for-the-badge)
+![Interface](https://img.shields.io/badge/Interface-CLI-2B2B2B?style=for-the-badge&logo=gnubash&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-FFB800?style=for-the-badge)
 
 </div>
 
