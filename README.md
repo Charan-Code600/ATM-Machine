@@ -64,9 +64,9 @@
 <table>
 <tr><td align="left">
 
-[![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)](#-overview)
+[![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)](#overview)
 <br>
-[![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)](#-demo)
+[![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)](#demo)
 <br>
 [![3 Features](https://img.shields.io/badge/3-Features-1a1a2e?style=for-the-badge)](#-features)
 <br>
@@ -87,7 +87,6 @@
 </td></tr>
 </table>
 </div>
-<br>
 
 
 <!-- ==================== GLOWING DIVIDER ==================== -->
