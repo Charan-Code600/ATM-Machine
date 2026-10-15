@@ -118,7 +118,15 @@
 
 
 
-[![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)](#-demo)
+<!-- ==================== Demo ==================== -->
+
+<a id="demo"></a>
+
+![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)
+
+<div align="center">
+  <img src="atm-demo.gif" width="700" alt="ATM Machine demo">
+</div>
 
 ```
            ╔══════════════════════════════════╗
