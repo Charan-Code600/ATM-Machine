@@ -2,9 +2,8 @@
 <!-- ==================== ANIMATED BANNER ==================== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB800,100:FF8C00&height=150&section=header&text=ATM%20Machine&fontSize=50&fontColor=000000&fontAlignY=35" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=150&section=header&text=ATM%20Machine&fontSize=50&fontColor=FFB800&animation=twinkling&fontAlignY=35" width="100%"/>
 </div>
-
 
 
 <!-- ==================== Tagline ==================== -->
