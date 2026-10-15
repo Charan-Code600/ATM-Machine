@@ -99,7 +99,9 @@
 
 <!-- ==================== Overview ==================== -->
 
-[![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)](#-overview)
+<a id="overview"></a>
+
+![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)
 
 <div align="center">
 
