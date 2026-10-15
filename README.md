@@ -2,7 +2,19 @@
 <!-- ==================== ANIMATED BANNER ==================== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f2027,100:2c5364&height=140&section=header&text=ATM%20Machine&fontSize=50&fontColor=FFB800&animation=scaleIn&fontAlignY=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00c6ff,100:0072ff&height=160&section=header&text=ATM%20Machine&fontSize=55&fontColor=ffffff&animation=scaleIn&fontAlignY=42&desc=Python%20%7C%20CLI%20%7C%20File%20Persistence&descSize=18&descAlignY=68" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:8E2DE2,100:4A00E0&height=160&section=header&text=ATM%20Machine&fontSize=55&fontColor=ffffff&animation=scaleIn&fontAlignY=42&desc=Python%20%7C%20CLI%20%7C%20File%20Persistence&descSize=18&descAlignY=68" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:11998e,100:38ef7d&height=160&section=header&text=ATM%20Machine&fontSize=55&fontColor=ffffff&animation=scaleIn&fontAlignY=42&desc=Python%20%7C%20CLI%20%7C%20File%20Persistence&descSize=18&descAlignY=68" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0f2027,100:2c5364&height=160&section=header&text=ATM%20Machine&fontSize=55&fontColor=FFB800&animation=scaleIn&fontAlignY=42&desc=Python%20%7C%20CLI%20%7C%20File%20Persistence&descSize=18&descAlignY=68" width="100%"/>
 </div>
 
 <!-- ==================== Tagline ==================== -->
