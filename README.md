@@ -101,7 +101,7 @@
 
 <a id="overview"></a>
 
-![1 Overview](https://img.shields.io/badge/1-Overview-1a1a2e?style=for-the-badge)
+![1 Overview](https://img.shields.io/badge/1-Overview-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 <div align="center">
 
@@ -122,7 +122,7 @@
 
 <a id="demo"></a>
 
-![2 Demo](https://img.shields.io/badge/2-Demo-1a1a2e?style=for-the-badge)
+![2 Demo](https://img.shields.io/badge/2-Demo-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 <div align="center">
   <img src="atm-demo.gif" width="700" alt="ATM Machine demo">
