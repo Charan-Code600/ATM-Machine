@@ -1,4 +1,8 @@
 
+
+
+
+
 <!-- ==================== ANIMATED BANNER ==================== -->
 
 
@@ -67,21 +71,21 @@
 <br>
 [![2 Demo](https://img.shields.io/badge/2-Demo-FFB800?style=for-the-badge&labelColor=1a1a2e)](#demo)
 <br>
-[![3 Features](https://img.shields.io/badge/3-Features-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-features)
+[![3 Features](https://img.shields.io/badge/3-Features-FFB800?style=for-the-badge&labelColor=1a1a2e)](#features)
 <br>
-[![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-tech-stack)
+[![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-FFB800?style=for-the-badge&labelColor=1a1a2e)](#tech-stack)
 <br>
-[![5 Installation](https://img.shields.io/badge/5-Installation-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-installation--usage)
+[![5 Installation](https://img.shields.io/badge/5-Installation-FFB800?style=for-the-badge&labelColor=1a1a2e)](#installation)
 <br>
-[![6 Menu Options](https://img.shields.io/badge/6-Menu%20Options-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-menu-options)
+[![6 Menu Options](https://img.shields.io/badge/6-Menu%20Options-FFB800?style=for-the-badge&labelColor=1a1a2e)](#menu-options)
 <br>
-[![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-project-structure)
+[![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-FFB800?style=for-the-badge&labelColor=1a1a2e)](#project-structure)
 <br>
-[![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-key-highlights)
+[![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-FFB800?style=for-the-badge&labelColor=1a1a2e)](#key-highlights)
 <br>
-[![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-future-improvements)
+[![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-FFB800?style=for-the-badge&labelColor=1a1a2e)](#future-improvements)
 <br>
-[![10 Author](https://img.shields.io/badge/10-Author-FFB800?style=for-the-badge&labelColor=1a1a2e)](#-author)
+[![10 Author](https://img.shields.io/badge/10-Author-FFB800?style=for-the-badge&labelColor=1a1a2e)](#author)
 
 </td></tr>
 </table>
@@ -124,10 +128,12 @@
 ![2 Demo](https://img.shields.io/badge/2-Demo-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 <div align="center">
-  <img src="atm-demo.gif" width="700" alt="ATM Machine demo">
+
+*A sample session: wrong PIN, login, balance check, deposit, a blocked withdrawal, a valid withdrawal, history and exit.*
+
 </div>
 
-```
+```text
            ╔══════════════════════════════════╗
            ║     WELCOME TO HDFC ATM MACHINE  ║
            ╚══════════════════════════════════╝
@@ -141,52 +147,168 @@
 
   🔒 Password Protected
 
-Enter PIN: ****
+Enter PIN: 9999
+❌ Wrong PIN! 2 attempt(s) left.
+
+Enter PIN: 1234
+
 ✅ PIN Correct! Account Unlocked. Welcome!
+
+====================================
+
+Choose an option (0-5): 0
+------------------------------------
+💰  Available Balance: ₹1000
+------------------------------------
+
+Choose an option (0-5): 3
+Deposit amount: 500
+------------------------------------
+✅ Deposited ₹500 into HDFC Bank
+💰 New Balance: ₹1500
+------------------------------------
+
+Choose an option (0-5): 2
+Withdraw amount: 5000
+------------------------------------
+⚠  Insufficient balance! Current balance: ₹1500
+   Minimum ₹1,000 must remain in account.
+------------------------------------
+
+Choose an option (0-5): 2
+Withdraw amount: 200
+------------------------------------
+✅ Withdrawn ₹200 from HDFC Bank
+💰 Available Balance: ₹1300
+------------------------------------
+
+Choose an option (0-5): 4
+------------------------------------
+📜 Transaction History
+------------------------------------
+1. Deposited: ₹500
+2. Withdrawn: ₹200
+------------------------------------
+
+Choose an option (0-5): 5
+
+🙏 Thank you for banking with HDFC. Visit again!
 ```
 
-> 📸 *Add a real terminal screenshot here once available, for an even stronger first impression.*
 
-<br>
+<!-- ==================== GLOWING DIVIDER ==================== -->
 
-## ✨ Features
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
 
-- 🔐 **PIN Protection** — account locks after 3 incorrect attempts
-- 💰 **Balance Check** — view current balance instantly
-- 💸 **Smart Withdraw** — enforces a ₹1,000 minimum balance automatically
-- 💵 **Deposit Money** — add funds with full validation
-- 📋 **Transaction History** — every withdrawal/deposit permanently logged
-- ✅ **Input Validation** — invalid or negative amounts safely rejected, no crashes
-- 💾 **Data Persistence** — balance and history survive program restarts
 
-<br>
 
-## 🛠 Tech Stack
+<!-- ==================== Features ==================== -->
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![File Handling](https://img.shields.io/badge/-File%20Handling-4B8BBE?style=flat-square)
+<a id="features"></a>
 
-<br>
+![3 Features](https://img.shields.io/badge/3-Features-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
-## 🚀 Installation & Usage
+<div align="center">
+
+| Feature | What it does |
+|:--|:--|
+| 🔐 **PIN Login** | 3 attempts allowed, the session ends after 3 wrong PINs |
+| 💰 **Balance Check** | Shows the current balance instantly |
+| ℹ️ **Withdrawal Limit Check** | Shows how much can be withdrawn while keeping the ₹1,000 minimum |
+| 💸 **Withdraw** | Blocks any withdrawal that would drop the balance below ₹1,000 |
+| 💵 **Deposit** | Adds funds, only positive amounts are accepted |
+| 📋 **Transaction History** | Every deposit and withdrawal is logged and shown in order |
+| 💾 **Data Persistence** | Balance and history are saved to files and reload on the next run |
+| ✅ **Input Validation** | Letters, zero, negative amounts and wrong menu options are rejected with a clear message |
+
+</div>
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+<!-- ==================== Tech Stack ==================== -->
+
+<a id="tech-stack"></a>
+
+![4 Tech Stack](https://img.shields.io/badge/4-Tech%20Stack-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Standard Library](https://img.shields.io/badge/Standard%20Library-os-4B8BBE?style=for-the-badge)
+![Storage](https://img.shields.io/badge/Storage-Text%20Files-2B2B2B?style=for-the-badge)
+
+**Concepts practiced:** file handling · lists · loops · conditionals · exception handling · string formatting
+
+</div>
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+<!-- ==================== Installation ==================== -->
+
+<a id="installation"></a>
+
+![5 Installation](https://img.shields.io/badge/5-Installation-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+<div align="center">
+
+**Requirement:** Python 3.x. There is nothing else to install.
+
+</div>
 
 ```bash
-# Clone the repository
-git clone https://github.com/Charan-Code600/atm-machine.git
-cd atm-machine
+# 1. Clone the repository
+git clone https://github.com/Charan-Code600/ATM-Machine.git
 
-# Run the program
+# 2. Open the project folder
+cd ATM-Machine
+
+# 3. Run the program
 python atm.py
 ```
 
-**Default PIN:** `1234` (3 attempts allowed before lockout)
+<div align="center">
 
-<br>
+If `python` is not recognised on your system, use `python3 atm.py` instead.
 
-## 📋 Menu Options
+**Default PIN:** `1234` &nbsp;|&nbsp; **Attempts allowed:** 3
+
+</div>
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+<!-- ==================== Menu Options ==================== -->
+
+<a id="menu-options"></a>
+
+![6 Menu Options](https://img.shields.io/badge/6-Menu%20Options-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+<div align="center">
 
 | Option | Action |
-|:------:|--------|
+|:------:|:-------|
 | 0 | Check current balance |
 | 1 | Check how much you can safely withdraw |
 | 2 | Withdraw money |
@@ -194,52 +316,94 @@ python atm.py
 | 4 | View transaction history |
 | 5 | Exit |
 
-<br>
-
-## 📁 Project Structure
-
-```
-atm-machine/
-├── atm.py          # Main program
-├── balance.txt     # Auto-generated — stores current balance
-└── history.txt     # Auto-generated — stores transaction log
-```
-
-<br>
-
-## 💡 Key Highlights
-
-- Zero external dependencies — runs on any machine with Python installed
-- Minimum-balance logic prevents overdraft on every withdrawal path
-- Balance and history persist automatically, no manual save step needed
-- Account auto-locks after 3 failed PIN attempts for basic security
-
-<br>
-
-## 🔮 Future Improvements
-
-- [ ] Multi-user support with separate account files
-- [ ] Encrypted PIN storage instead of plain-text check
-- [ ] Interest calculation on stored balance
-- [ ] GUI version using Tkinter
-
-<br>
-
-## 👤 Author
-
-**Charan Aade** — Python & Data Analysis Developer
-
-🔗 [GitHub](https://github.com/Charan-Code600) • [LinkedIn](https://linkedin.com/in/charanaade)
-
-<br>
-
-<div align="center">
-
-![License](https://img.shields.io/badge/License-MIT-FFB800?style=for-the-badge)
-
 </div>
 
 
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
 
 
+
+<!-- ==================== Project Structure ==================== -->
+
+<a id="project-structure"></a>
+
+![7 Project Structure](https://img.shields.io/badge/7-Project%20Structure-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+```text
+ATM-Machine/
+├── atm.py          # Main program
+├── balance.txt     # Auto-generated, stores the current balance
+└── history.txt     # Auto-generated, stores the transaction log
+```
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+<!-- ==================== Key Highlights ==================== -->
+
+<a id="key-highlights"></a>
+
+![8 Key Highlights](https://img.shields.io/badge/8-Key%20Highlights-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+- **Zero external dependencies:** runs on any machine that has Python installed
+- **Minimum-balance rule:** the ₹1,000 limit is checked on every withdrawal, so the balance can never drop below it
+- **Automatic persistence:** balance and history are saved after every transaction, with no manual save step
+- **Safe input handling:** invalid, negative or non-numeric entries get a clear message instead of an error
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+<!-- ==================== Future Improvements ==================== -->
+
+<a id="future-improvements"></a>
+
+![9 Future Improvements](https://img.shields.io/badge/9-Future%20Improvements-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+- [ ] Multi-user support with a separate account file for each user
+- [ ] Store the PIN securely (hashed) instead of keeping it in the code
+- [ ] Option to change the PIN from the menu
+- [ ] Export the transaction history as a mini statement
+- [ ] GUI version using Tkinter
+
+
+<!-- ==================== GLOWING DIVIDER ==================== -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=4&width=1200" width="100%" />
+</p>
+
+
+
+<!-- ==================== Author ==================== -->
+
+<a id="author"></a>
+
+![10 Author](https://img.shields.io/badge/10-Author-FFB800?style=for-the-badge&labelColor=1a1a2e)
+
+<div align="center">
+
+### Charan Aade
+Python & Data Analysis Developer
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/charanaade)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Charan-Code600)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:charanade66@gmail.com)
+
+</div>
 
