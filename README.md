@@ -128,15 +128,15 @@
 ![2 Demo](https://img.shields.io/badge/2-Demo-FFB800?style=for-the-badge&labelColor=1a1a2e)
 
 <div align="center">
-
-*A sample session: wrong PIN, login, balance check, deposit, a blocked withdrawal, a valid withdrawal, history and exit.*
-
+<i>A real session: two wrong PINs, login, minimum-balance rules, deposit, withdrawal, history and exit.</i>
 </div>
 
-```text
+```
            ╔══════════════════════════════════╗
            ║     WELCOME TO HDFC ATM MACHINE  ║
            ╚══════════════════════════════════╝
+
+**********************************************************
 
         Balance Check                   Enter  →  0
         Minimum Balance Check           Enter  →  1
@@ -145,10 +145,15 @@
         Transaction History             Enter  →  4
         Exit                            Enter  →  5
 
+***********************************************************
+
   🔒 Password Protected
 
-Enter PIN: 9999
+Enter PIN: 3345
 ❌ Wrong PIN! 2 attempt(s) left.
+
+Enter PIN: 7854
+❌ Wrong PIN! 1 attempt(s) left.
 
 Enter PIN: 1234
 
@@ -161,33 +166,45 @@ Choose an option (0-5): 0
 💰  Available Balance: ₹1000
 ------------------------------------
 
-Choose an option (0-5): 3
-Deposit amount: 500
+Choose an option (0-5): 1
 ------------------------------------
-✅ Deposited ₹500 into HDFC Bank
-💰 New Balance: ₹1500
+ℹ️  Minimum balance required: ₹1,000
+❌ You cannot withdraw anything — balance is at minimum limit.
 ------------------------------------
 
 Choose an option (0-5): 2
-Withdraw amount: 5000
+Withdraw amount: 50
 ------------------------------------
-⚠  Insufficient balance! Current balance: ₹1500
+⚠  Insufficient balance! Current balance: ₹1000
    Minimum ₹1,000 must remain in account.
 ------------------------------------
 
-Choose an option (0-5): 2
-Withdraw amount: 200
+Choose an option (0-5): 3
+Deposit amount: 1500
 ------------------------------------
-✅ Withdrawn ₹200 from HDFC Bank
-💰 Available Balance: ₹1300
+✅ Deposited ₹1500 into HDFC Bank
+💰 New Balance: ₹2500
+------------------------------------
+
+Choose an option (0-5): 1
+------------------------------------
+ℹ️  Minimum balance required: ₹1,000
+✅ You can withdraw up to ₹1500 right now
+------------------------------------
+
+Choose an option (0-5): 2
+Withdraw amount: 145
+------------------------------------
+✅ Withdrawn ₹145 from HDFC Bank
+💰 Available Balance: ₹2355
 ------------------------------------
 
 Choose an option (0-5): 4
 ------------------------------------
 📜 Transaction History
 ------------------------------------
-1. Deposited: ₹500
-2. Withdrawn: ₹200
+1. Deposited: ₹1500
+2. Withdrawn: ₹145
 ------------------------------------
 
 Choose an option (0-5): 5
