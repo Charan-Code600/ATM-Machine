@@ -352,9 +352,9 @@ If `python` is not recognised on your system, use `python3 atm_machine.py` inste
 
 ```text
 ATM-Machine/
-├── atm.py          # Main program
-├── balance.txt     # Auto-generated, stores the current balance
-└── history.txt     # Auto-generated, stores the transaction log
+├── atm_machine.py         # Main program
+├── balance.txt            # Auto-generated, stores the current balance
+└── history.txt            # Auto-generated, stores the transaction log
 ```
 
 
