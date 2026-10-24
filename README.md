@@ -301,7 +301,7 @@ python atm_machine.py
 
 <div align="center">
 
-If `python` is not recognised on your system, use `python3 atm.py` instead.
+If `python` is not recognised on your system, use `python3 atm_machine.py` instead.
 
 **Default PIN:** `1234` &nbsp;|&nbsp; **Attempts allowed:** 3
 
