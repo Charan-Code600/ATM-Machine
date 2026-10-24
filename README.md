@@ -296,7 +296,7 @@ git clone https://github.com/Charan-Code600/ATM-Machine.git
 cd ATM-Machine
 
 # 3. Run the program
-python atm.py
+python atm_machine.py
 ```
 
 <div align="center">
