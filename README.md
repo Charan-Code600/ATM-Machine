@@ -263,11 +263,12 @@ Choose an option (0-5): 5
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Standard Library](https://img.shields.io/badge/Standard%20Library-os-4B8BBE?style=for-the-badge)
-![Storage](https://img.shields.io/badge/Storage-Text%20Files-2B2B2B?style=for-the-badge)
-
-**Concepts practiced:** file handling · lists · loops · conditionals · exception handling · string formatting
+| Layer | Technology | Used for |
+|:------|:-----------|:---------|
+| **Language** | ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white) | Core logic and the command-line menu |
+| **Library** | ![os](https://img.shields.io/badge/os-Standard%20Library-4B8BBE?style=flat-square) | Checking and managing the data files |
+| **Storage** | ![Text Files](https://img.shields.io/badge/Storage-Text%20Files-2B2B2B?style=flat-square) | Saving balance and history between runs |
+| **Concepts** | File handling · Lists · Loops · Conditionals · Exception handling · String formatting | Practised throughout the program |
 
 </div>
 
